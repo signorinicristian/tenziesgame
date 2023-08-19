@@ -1,2 +1,8 @@
-# tenziesgame
- Es un juego donde debes tirar dados hasta que todos tengan el mismo valor. Se puede congelar el valor de un dado haciendo clic en él. El objetivo es ganar en la menor cantidad de tiradas posibles. También incluye un temporizador y un registro de tus mejores tiempos.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
