@@ -91,12 +91,12 @@ function App() {
     <div className="bg-gradient-to-bl from-[#fef9c3] to-[#d8b4ff] h-screen w-full flex justify-center items-center">
       {tenzies && <Confetti />}
       
-      <div className="h-[680px] w-[760px] bg-[#F5F5F5] flex flex-col items-center justify-normal rounded-2xl shadow-xl font-victor text-center">
+      <div className="h-[680px] w-[380px] sm:w-[500px] md:w-[760px] bg-[#F5F5F5] flex flex-col items-center justify-normal rounded-2xl shadow-xl font-victor text-center">
         
-        <h1 className="text-4xl mt-12">Tenzies</h1>
-        <p className="mt-6 w-[600px]">{tenzies ? winningText : "Tire los dados hasta que todos sean iguales. Haz click en cada dado para congelarlo y mantener su valor actual entre tiradas."}</p>
+        <h1 className="text-3xl md:text-4xl mt-12">Tenzies</h1>
+        <p className="mt-6 w-[350px] sm:w-[400px] md:w-[600px]">{tenzies ? winningText : "Tire los dados hasta que todos sean iguales. Haz click en cada dado para congelarlo y mantener su valor actual entre tiradas."}</p>
         
-        <div className="h-auto w-[550px] grid grid-cols-5 grid-rows-2 gap-4 my-12">
+        <div className="h-auto w-[340px] sm:w-[460px] md:w-[550px] grid grid-cols-5 grid-rows-2 gap-2 md:gap-4 my-12">
           {diceElements}
         </div>
         <button className="bg-blue-400 text-white text-lg font-size mt-4 py-4 px-4 rounded-xl hover:shadow-xl hover:px-6 duration-200" onClick={rollDice}>

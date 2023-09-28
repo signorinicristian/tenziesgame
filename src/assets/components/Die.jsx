@@ -7,7 +7,7 @@ const Die = ({value, isHeld, holdDice}) => {
     }
 
     return (
-        <div onClick={holdDice} style={styles} className="h-[64px] w-[64px] flex items-center justify-center m-4 duration-200 rounded-xl cursor-pointer">
+        <div onClick={holdDice} style={styles} className="h-[48px] w-[48px] sm:h-[64px] sm:w-[64px] flex items-center justify-center m-4 duration-200 rounded-xl cursor-pointer">
             <p className="text-xl">{value}</p>
         </div>
     )
